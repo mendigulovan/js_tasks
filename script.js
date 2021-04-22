@@ -96,7 +96,25 @@ document.getElementById("myId").addEventListener("click", throttle((e)=>{
     console.log("you clicked the button")
 },5000))
 
+/*  There is an animal farm, all animals have names and ages. 
+*   Animals are of different types: Cats, Dogs, Cows. Each animal can have children. 
+*   If the animal is the parent of these children, in turn, the depth of the family tree can reach N or 0.
+*   Describe the data structures for an animal farm and 
+*   write a function that counts all ages of the animals and 
+*   outputs the total age for the entire farm.
+*/
+class Animal{
+    constructor(type, name, age, children = null){
+        this.type = type;
+        this.name = name;
+        this.age = age;
+        this.children = children;
+    }
+}
 
+function countAnimalsAge(animals){
+
+}
 
 
 
